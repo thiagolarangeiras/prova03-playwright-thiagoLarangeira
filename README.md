@@ -2,11 +2,11 @@
 
 ## GitHub Actions + SonarCloud
 
-[![Build and Tests](https://github.com/ugioni/playwright-e2e/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/ugioni/playwright-e2e/actions/workflows/node.js.yml)
+[![Build and Tests](https://github.com/thiagolarangeiras/prova03-playwright-thiagoLarangeira/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/thiagolarangeiras/prova03-playwright-thiagoLarangeira/actions/workflows/node.js.yml)
 
 </br>
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ugioni_playwright-e2e&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ugioni_playwright-e2e)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=thiagolarangeiras_prova03-playwright-thiagoLarangeira&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=thiagolarangeiras_prova03-playwright-thiagoLarangeira)
 
 ## Getting Started
 
