@@ -21,7 +21,31 @@ test.describe('Testando loja demo blaze', () => {
 		await page.goto(BASE_URL);
 	});
 
+	test('Preencher formulário de login com dados inválidos', async () => {
+		await demoBlaze.loginErrado(user);
+	});
+
 	test('Preencher formulário de login com dados válidos', async () => {
 		await demoBlaze.login(user);
+	});
+
+	test('Checar se carinho de compras está vazio', async () => {
+		await demoBlaze.login(user);
+		await demoBlaze.checarCarrinhoVazio();
+	});
+
+	test('Adicionar 1 item no carrinho de compras', async () => {
+		await demoBlaze.login(user);
+		await demoBlaze.adicionarItemAoCarrinho();
+	});
+
+	test('Checar se carinho de compras tem pelo menos 1 item', async () => {
+		await demoBlaze.login(user);
+		await demoBlaze.checarCarrinhoComItem();
+	});
+
+	test('finalizar a compra', async () => {
+		await demoBlaze.login(user);
+		await demoBlaze.finalizarCompra();
 	});
 });
